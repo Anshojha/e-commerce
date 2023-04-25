@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # e-commerce
 This is the e-com made using React and Tailwind CSS as task to complete in 10 days.
 =======
