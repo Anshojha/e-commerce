@@ -2,10 +2,11 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <div className='Navbar.css'>
-    
-
-    
-    </div>
+    < >
+     <div>
+      
+      
+     </div>
+    </>
   )
 }
