@@ -12,7 +12,7 @@ export class Login extends Component {
           />
         </div>
         <div className=" h-screen w-screen grid place-items-center z-1 absolute top-0">
-          <div className="drop-shadow-2xl w-1/3 h-2/3 bg-black ">
+          <div className="drop-shadow-2xl w-1/3 h-2/3 bg-black bg-opacity-40">
             <h1 className="font-bold text-4xl m-4 grid place-items-center my-6 text-white">
               Login Here
             </h1>
