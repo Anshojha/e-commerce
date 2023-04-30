@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export class Login extends Component {
   render() {
@@ -13,9 +14,9 @@ export class Login extends Component {
         </div>
         <div className=" h-screen w-screen grid place-items-center z-1 absolute top-0">
           <div className="drop-shadow-2xl w-1/3 h-2/3 bg-black bg-opacity-40">
-            <h1 className="font-bold text-4xl m-4 grid place-items-center my-6 text-white">
+            <Link to="/" className="font-bold text-4xl m-4 grid place-items-center my-6 text-white">
               Login Here
-            </h1>
+            </Link>
             <div className="block flex flex-col space-y-6 m-10">
               <input
                 className="p-1 rounded-[7px] px-3 py-3 font-sans text-base"
@@ -30,19 +31,19 @@ export class Login extends Component {
                 placeholder="Password"
               />
             </div>
-            <div className="flex ml-10 max-w-fit space-x-2 text-white">
+            <div className="flex ml-10 max-w-fit space-x-2 text-white  items-center">
               <input
-                className=" rounded-[7px]"
+                className="rounded-[7px] py-4"
                 type="checkbox"
                 class="default:ring-2 ..."
               />
-              <p>
+              <p className="text-white ">
                 Agree with
-                <span className="underline px-1">Terms and Conditions</span>
+                <span className="underline px-1 text-white">Terms and Conditions</span>
               </p>
             </div>
             <div className="flex justify-center items-center mt-4">
-              <button className=" rounded-[6px] h-10 w-5/6 bg-orange-600 ">
+              <button className="rounded-[6px] h-10 w-5/6 bg-orange-600">
                 login
               </button>
             </div>

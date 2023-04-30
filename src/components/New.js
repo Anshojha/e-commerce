@@ -1,11 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+// import './App.css';
 const Display = () => {
   return (
     <>
 <html lang="en">
-
 <head>
    <title>Ecommerce CC</title>
     <link rel="stylesheet" to="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
@@ -23,7 +22,7 @@ const Display = () => {
                 <li><Link className="active" to="/">Home</Link></li>
                 <li><Link to="/login">Login</Link></li>
                 <li><Link to="/shop">Shop</Link></li>
-                <li><Link to="/about">About</Link></li>
+                <li><Link to="/cart">Cart</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
                 <li id="lg-bag"><a to="cart.html"><i className="far fa-shopping-bag"></i></a></li>
                 <Link to="#" id="close"><i className="far fa-times"></i></Link>
@@ -81,7 +80,7 @@ const Display = () => {
                 <a to="#"><i className="fal fa-shopping-cart cart"></i></a>
             </div>
             <div className="pro">
-                <img src="img/products/ryan-hoffman-czLSitCJ3Dw-unsplash.jpg" alt=""/>
+                <img src={require("./img/products/ryan-hoffman-czLSitCJ3Dw-unsplash.jpg")} alt=""/>
                 <div className="des">
                     <span>puma</span>
                     <h5>Winter T-Shirts</h5>
@@ -97,7 +96,7 @@ const Display = () => {
                 <a to="#"><i className="fal fa-shopping-cart cart"></i></a>
             </div>
             <div className="pro">
-                <img src="img/products/uji-kanggo-gumilang-sMn0sxR8v2E-unsplash.jpg" alt=""/>
+                <img src={require("./img/products/uji-kanggo-gumilang-sMn0sxR8v2E-unsplash.jpg")} alt=""/>
                 <div className="des">
                     <span>h&m</span>
                     <h5>Cool T-Shirts</h5>
@@ -113,7 +112,7 @@ const Display = () => {
                 <a to="#"><i className="fal fa-shopping-cart cart"></i></a>
             </div>
             <div className="pro">
-                <img src="img/products/bao-bao-mlKE8dEMc_8-unsplash.jpg" alt=""/>
+                <img src={require("./img/products/bao-bao-mlKE8dEMc_8-unsplash.jpg")} alt=""/>
                 <div className="des">
                     <span>adidas</span>
                     <h5>Stylish T-Shirts</h5>
@@ -129,7 +128,7 @@ const Display = () => {
                 <a to="#"><i className="fal fa-shopping-cart cart"></i></a>
             </div>
             <div className="pro">
-                <img src="img/products/marlon-alves-A0mSSCEVh9A-unsplash.jpg" alt=""/>
+                <img src={require("./img/products/marlon-alves-A0mSSCEVh9A-unsplash.jpg")} alt=""/>
                 <div className="des">
                     <span>tommy</span>
                     <h5>Pink T-Shirts</h5>
@@ -145,7 +144,7 @@ const Display = () => {
                 <a to="#"><i className="fal fa-shopping-cart cart"></i></a>
             </div>
             <div className="pro">
-                <img src="img/products/josue-escoto-crsQ7CNIovw-unsplash.jpg" alt=""/>
+                <img src={require("./img/products/josue-escoto-crsQ7CNIovw-unsplash.jpg" )}alt=""/>
                 <div className="des">
                     <span>h&m</span>
                     <h5>Red T-Shirts</h5>
@@ -161,7 +160,7 @@ const Display = () => {
                 <a to="#"><i className="fal fa-shopping-cart cart"></i></a>
             </div>
             <div className="pro">
-                <img src="img/products/luis-santoyo-eyUOuA6hIMA-unsplash.jpg" alt=""/>
+                <img src={require("./img/products/luis-santoyo-eyUOuA6hIMA-unsplash.jpg")} alt=""/>
                 <div className="des">
                     <span>paris</span>
                     <h5>Short T-Shirts</h5>
@@ -184,7 +183,7 @@ const Display = () => {
         <p>Summer Collection New Morden Design</p>
         <div className="pro-container">
             <div className="pro">
-                <img src="img/New folder/amirr-zolfaqari-mLGTf7Wteyw-unsplash.jpg" alt=""/>
+                <img src={require("./img/New folder/amirr-zolfaqari-mLGTf7Wteyw-unsplash.jpg")} alt=""/>
                 <div className="des">
                     <span>adidas</span>
                     <h5>Black T-Shirts</h5>
@@ -200,7 +199,7 @@ const Display = () => {
                 <a to="#"><i className="fal fa-shopping-cart cart"></i></a>
             </div>
             <div className="pro">
-                <img src="img/New folder/fadkhera-official-n_Si7Q7SdJk-unsplash.jpg" alt=""/>
+                <img src={require("./img/New folder/fadkhera-official-n_Si7Q7SdJk-unsplash.jpg" )}alt=""/>
                 <div className="des">
                     <span>adidas</span>
                     <h5>Blue T-Shirts</h5>
@@ -216,7 +215,7 @@ const Display = () => {
                 <a to="#"><i className="fal fa-shopping-cart cart"></i></a>
             </div>
             <div className="pro">
-                <img src="img/New folder/gelmis-bartulis-gzlfj8Fjdk0-unsplash.jpg" alt=""/>
+                <img src={require("./img/New folder/gelmis-bartulis-gzlfj8Fjdk0-unsplash.jpg")} alt=""/>
                 <div className="des">
                     <span>h&m</span>
                     <h5>Black Jacket</h5>
@@ -232,7 +231,7 @@ const Display = () => {
                 <a to="#"><i className="fal fa-shopping-cart cart"></i></a>
             </div>
             <div className="pro">
-                <img src="img/New folder/jacinto-diego-Groi0xH25-o-unsplash.jpg" alt=""/>
+                <img src={require("./img/New folder/jacinto-diego-Groi0xH25-o-unsplash.jpg")} alt=""/>
                 <div className="des">
                     <span>tommy</span>
                     <h5>Green T-Shirts</h5>
@@ -248,7 +247,7 @@ const Display = () => {
                 <a to="#"><i className="fal fa-shopping-cart cart"></i></a>
             </div>
             <div className="pro">
-                <img src="img/New folder/marcel-strauss-LYEnS2xB9bQ-unsplash.jpg" alt=""/>
+                <img src={require("./img/New folder/marcel-strauss-LYEnS2xB9bQ-unsplash.jpg")} alt=""/>
                 <div className="des">
                     <span>tommy</span>
                     <h5>Dark Blue T-Shirts</h5>
@@ -264,7 +263,7 @@ const Display = () => {
                 <a to="#"><i className="fal fa-shopping-cart cart"></i></a>
             </div>
             <div className="pro">
-                <img src="img/New folder/marcus-santos-s3w111NXnP4-unsplash.jpg" alt=""/>
+                <img src={require("./img/New folder/marcus-santos-s3w111NXnP4-unsplash.jpg" )}alt=""/>
                 <div className="des">
                     <span>adidas</span>
                     <h5>Red T-Shirts</h5>
@@ -280,7 +279,7 @@ const Display = () => {
                 <a to="#"><i className="fal fa-shopping-cart cart"></i></a>
             </div>
             <div className="pro">
-                <img src="img/New folder/pooria-shahriari-21TsyXG9Rgs-unsplash.jpg" alt=""/>
+                <img src={require("./img/New folder/pooria-shahriari-21TsyXG9Rgs-unsplash.jpg")} alt=""/>
                 <div className="des">
                     <span>adidas</span>
                     <h5>Yellow T-Shirts</h5>
@@ -296,7 +295,7 @@ const Display = () => {
                 <a to="#"><i className="fal fa-shopping-cart cart"></i></a>
             </div>
             <div className="pro">
-                <img src="img/New folder/wes-cain-MGi6K1Cvftk-unsplash.jpg" alt=""/>
+                <img src={require("./img/New folder/wes-cain-MGi6K1Cvftk-unsplash.jpg")} alt=""/>
                 <div className="des">
                     <span>h&m</span>
                     <h5>Black Hoodie</h5>
@@ -331,50 +330,7 @@ const Display = () => {
     </section>
 
     
-    <footer className="section-p1">
-        <div className="col">
-            <img className="logo" src="assets/ella-logo-black.png" alt=""/>
-            <h4>Contact</h4>
-            <p><strong>Address: </strong>SRM RMP Ramapuram Main Rd Chennai 600012</p>
-            <p><strong>Phone:</strong> +044 4853 6157 / +91 9328675438</p>
-            
-            <div className="follow">
-                <h4>Follow Us</h4>
-                <div className="icon">
-                    <i className="fab fa-facebook-f"></i>
-                    <i className="fab fa-twitter"></i>
-                    <i className="fab fa-instagram"></i>
-                    <i className="fab fa-youtube"></i>
-                </div>
-            </div>
-        </div>
-
-        <div className="col">
-            <h4>About</h4>
-            <a to="#">About Us</a>
-            
-            <a to="#">Terms & Conditions</a>
-            <a to="#">Contact Us</a>
-        </div>
-
-        <div className="col">
-            <h4>My Account</h4>
-            <a to="#">Sign In</a>
-            <a to="#">View Cart</a>
-            
-            <a to="#">Track My Order</a>
-            
-        </div>
-        <div className="col install">
-           
-            <p>Secured Payment Gateways </p>
-            <img src="img/pay/pay.png" alt=""/>
-        </div>
-
-        <div className="copyright">
-            <p>© 2023 CodeChef SRM</p>
-        </div>
-    </footer>
+   
 
     
 
